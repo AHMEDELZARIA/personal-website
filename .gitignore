@@ -1,0 +1,7 @@
+# MacOS X
+.DS_Store
+
+# IDE specific directories
+.idea
+.vscode
+*.iml
