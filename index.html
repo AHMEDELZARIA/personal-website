@@ -5,7 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
       <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+      <link rel="shortcut icon" href="assets/img/page-icon.jpg" type="image/x-icon">
 
       <!--=============== REMIXICONS ===============-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
@@ -13,55 +13,490 @@
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/css/styles.css">
 
-      <title>Responsive portfolio website Rian - Bedimcode</title>
+      <title>Ahmed Elzaria</title>
    </head>
    <body>
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
-         
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+               <span class="nav__logo-circle">A</span>
+
+               <span class="nav__logo-name">AhmedElzaria.</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+               <span class="nav__title">Menu</span>
+
+               <h3 class="nav__name">Ahmed</h3>
+
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link active-link">Home</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#about" class="nav__link">About Me</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#projects" class="nav__link">Projects</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#contact" class="nav__link nav__link-button">Contact Me</a>
+                  </li>
+               </ul>
+
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
+            </div>
+
+            <div class="nav__buttons">
+               <!-- Theme button -->
+               <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+               <!-- Toggle button -->
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-4-line"></i>
+               </div>
+            </div>
+         </nav>
       </header>
 
       <!--==================== MAIN ====================-->
       <main class="main">
          <!--==================== HOME ====================-->
          <section class="home section" id="home">
-            
+            <div class="home__container container grid">
+               <h1 class="home__name">
+                  Ahmed Elzaria
+               </h1>
+
+               <div class="home__perfil">
+                  <div class="home__image">
+                     <img src="assets/img/home-perfil.jpg" alt="image" class="home__img">
+                     <div class="home__shadow"></div>
+
+                     <img src="assets/img/curved-arrow.svg" alt="" class="home__arrow">
+                     <img src="assets/img/random-lines.svg" alt="" class="home__line">
+
+                     <div class="geometric-box"></div>
+                  </div>
+
+                  <div class="home__social">
+                     <a href="https://www.linkedin.com/in/ahmed-elzaria/" target="_blank" class="home__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                     </a>
+
+                     <a href="https://github.com/AHMEDELZARIA" target="_blank" class="home__social-link">
+                        <i class="ri-github-line"></i>
+                     </a>
+
+                     <a href="./assets/documents/AhmedElzaria-Resume.pdf" download="AhmedElzaria-Resume.pdf" class="home__social-link">
+                        <i class="ri-file-text-line"></i>
+                     </a>
+                  </div>
+               </div>
+
+               <div class="home__info">
+                  <p class="home__description">
+                     <b>Aspiring Software Engineer</b> passionate about <span class="typedText"></span>
+                  </p>
+                  
+                  <a href="#about" class="home__scroll">
+                     <div class="home__scroll-box">
+                        <i class="ri-arrow-down-s-line"></i>
+                     </div>
+                     
+                     <span class="home__scroll-text">Scroll Down</span>
+                  </a>
+               </div>
+            </div>
          </section>
 
          <!--==================== ABOUT ====================-->
          <section class="about section" id="about">
-            
+            <div class="about__container container grid">
+               <h2 class="section__title-1">
+                  <span>About Me.</span>
+               </h2>
+
+               <div class="about__perfil">
+                  <div class="about__image">
+                     <img src="assets/img/about-perfil.jpg" alt="image" class="about__img">
+
+                     <div class="about__shadow"></div>
+
+                     <div class="geometric-box"></div>
+                     <img src="assets/img/random-lines.svg" alt="" class="about__line">
+                     <div class="about__box"></div>
+                  </div>
+               </div>
+
+               <div class="about__info">
+                  <p class="about__description">
+                     Passionate about <b>machine learning, AI, and full-stack development</b>, thriving on innovation and continually expanding my knowledge. I enjoy tackling challenging problems, experimenting with new frameworks and tools, and creating high-quality, user-focused solutions via software engineering design principles and methodologies.
+                  </p>
+
+                  <ul class="about__list">
+                     <div class="about__item">
+                        <b><i class="ri-graduation-cap-line about__subicon"></i></b> Software Engineering Co-op @ McMaster University (Level III)
+                     </div>
+                     <div class="about__item">
+                        <b><i class="ri-terminal-line about__subicon"></i></b> Python &middot; Java &middot; JavaScript &middot; C &middot; Swift &middot; HTML/CSS &middot; Bash
+                     </div>
+                     <div class="about__item">
+                        <b><i class="ri-tools-fill about__subicon"></i></b> Agile Methadologies &middot; SE Design Principles &middot; Git &middot; GitHub &middot; TensorFlow &middot; HuggingFace &middot; SciKit &middot; NetworkX &middot; Pandas &middot; Numpy &middot; Matplotlib &middot; Maven &middot; JUnit &middot; SonarQube &middot; SwiftUI &middot; Figma &middot; Canva 
+                     </div>
+                  </ul>
+
+                  <div class="about__buttons">
+                     <a href="#contact" class="button">
+                        <i class="ri-send-plane-line"></i> Contact Me
+                     </a>
+
+                     <a href="https://www.linkedin.com/in/ahmed-elzaria/" target="_blank" class="button__ghost">
+                        <i class="ri-linkedin-box-line"></i>
+                     </a>
+
+                     <a href="./assets/documents/AhmedElzaria-Resume.pdf" download="AhmedElzaria-Resume.pdf" class="button__ghost">
+                        <i class="ri-file-text-line"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
          </section>
 
-         <!--==================== SERVICES ====================-->
-         <section class="services section">
-            
+         <!--==================== experience ====================-->
+         <section class="experience section">
+            <h2 class="section__title-2">
+               <span>Internships.</span>
+            </h2>
+
+            <div class="experience__container container grid">
+               <article class="experience__card">
+                  <div class="experience__border"></div>
+
+                  <div class="experience__content">
+                     <div class="experience__icon">
+                        <div class="experience__box"></div>
+                        <i class="ri-sketching"></i>
+                     </div>
+   
+                     <h2 class="experience__title">LLVM Optimization and Visualization</h2>
+
+                     <p class="experience__company__duration">
+                        <i class="ri-building-line"></i> McSCert 
+                        <i class="ri-calendar-2-line"></i> Summer 2023
+                     </p>
+
+                     <p class="experience__role">
+                        <i class="ri-briefcase-line"></i> 
+                        Software Eng. Research Assistant
+                     </p>
+   
+                     <p class="experience__description">
+                        Developed a novel tool to visualize the interactions and dependencies of LLVM optimization passes during the compilation process, aiding in understanding and improving code optimization.
+                     </p>
+
+                     <div class="experience__github__button">
+                        <a href="https://github.com/AHMEDELZARIA/LLVM-Evolution" target="_blank" class="projects__link">
+                           <i class="ri-github-line"></i> View
+                        </a>
+                     </div>
+                  </div>
+               </article>
+
+               <article class="experience__card">
+                  <div class="experience__border"></div>
+
+                  <div class="experience__content">
+                     <div class="experience__icon">
+                        <div class="experience__box"></div>
+                        <i class="ri-smartphone-line"></i>
+                     </div>
+   
+                     <h2 class="experience__title">AI/NLP for Mobile Applications</h2>
+
+                     <p class="experience__company__duration">
+                        <i class="ri-building-line"></i>  McSCert
+                        <i class="ri-calendar-2-line"></i> Summer 2024
+                     </p>
+
+                     <p class="experience__role">
+                        <i class="ri-briefcase-line"></i> 
+                        Software Eng. Research Assistant
+                     </p>
+   
+                     <p class="experience__description">
+                        Developing version 3 of Reso, a sucide prevention app, by developing on-device AI/NLP to ensure data privacy and provide timely, personalized support without relying on cloud-based services.
+                     </p>
+
+                     <div class="experience__github__button">
+                        <p class="projects__link">
+                           <i class="ri-github-line"></i> Coming soon...
+                        </p>
+                     </div>
+                  </div>
+               </article>
+
+            </div>
          </section>
 
          <!--==================== PROJECTS ====================-->
          <section class="projects section" id="projects">
-            
+            <h2 class="section__title-1">
+               <span>Projects.</span>
+            </h2>
+
+            <div class="projects__container container grid">
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="assets/img/aura-photo.webp" alt="image" class="projects__img">
+
+                     <!-- <a href="#" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a> -->
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">AI assistant</h3>
+                     <h2 class="projects__title"><i class="ri-robot-line"></i> AURA</h2>
+
+                     <p class="projects__description">
+                        I am developing a personalized AI assistant similar to Siri or Alexa, tailored to my preferences. It will feature voice recognition, NLP, computer vision, and generative capabilities for various day-to-day tasks.
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> Coming soon...
+                     </a>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="assets/img/rescue-mission-photo.webp" alt="image" class="projects__img">
+
+                     <a href="https://github.com/AHMEDELZARIA/RescueMission" target="_blank" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">Control program</h3>
+                     <h2 class="projects__title"><i class="ri-first-aid-kit-line"></i> Rescue Mission</h2>
+
+                     <p class="projects__description">
+                        A Java-based project focused on developing a sophisticated control system for a rescue drone. The drone will autonomously explore an island, locate stranded individuals, and pinpoint optimal rescue points.
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/AHMEDELZARIA/RescueMission" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> View
+                     </a>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="assets/img/maze-runner-photo.jpeg" alt="image" class="projects__img">
+
+                     <a href="https://github.com/AHMEDELZARIA/MazeRunnerRevisited" target="_blank" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">Pathfinding</h3>
+                     <h2 class="projects__title"><i class="ri-run-line"></i> Maze Runner</h2>
+
+                     <p class="projects__description">
+                        Utilizes data structures and algorithms to find a path from the entry to the exit point in any maze using methods like Tremaux, Righthand, DFS, BFS, and more. Additionally, it includes path validation and benchmarking tools.
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/AHMEDELZARIA/MazeRunnerRevisited" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> View
+                     </a>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="assets/img/llvm-photo.png" alt="image" class="projects__img">
+
+                     <a href="https://github.com/AHMEDELZARIA/LLVM-Evolution" target="_blank" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">Research tool</h3>
+                     <h2 class="projects__title"><i class="ri-microscope-line"></i> LLVM Pass Microscope</h2>
+
+                     <p class="projects__description">
+                        A cutting-edge tool designed to visualize pass interactions, facilitating the analysis of how various LLVM passes influence code transformations and performance. It generates transition graphs for any .c program using any set of LLVM passes.
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/AHMEDELZARIA/LLVM-Evolution" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> View
+                     </a>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="assets/img/personal-website-photo-1.png" alt="image" class="projects__img">
+
+                     <a href="#" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">Website</h3>
+                     <h2 class="projects__title"><i class="ri-pages-line"></i> Personal Website</h2>
+
+                     <p class="projects__description">
+                        Welcome to my personal website, crafted with HTML, CSS, and JavaScript. I enjoy designing intuitive and visually appealing websites with excellent UI/UX. Your feedback is welcome to help improve my site!
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/AHMEDELZARIA/personal-website" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> View
+                     </a>
+               </article>
+            </div>
          </section>
 
          <!--==================== CONTACT ====================-->
          <section class="contact section" id="contact">
-            
+            <div class="contact__container grid">
+               <div class="contact__data">
+                  <h2 class="section__title-2">
+                     <span>Contact Me.</span>
+                  </h2>
+
+                  <p class="contact__description-1">
+                     Feel free to reach out! I will get 
+                     back to you shortly.
+                  </p>
+
+                  <p class="contact__description-2">
+                     I need your <b>Name</b> and <b>Email Address</b>. Kindly fill out the form below.
+                  </p>
+
+                  <div class="geometric-box"></div>
+               </div>
+
+               <div class="contact__mail">
+                  <h2 class="contact__title">
+                     Send Me A Message 
+                  </h2>
+
+                  <form action="" class="contact__form" id="contact-form">
+                     <div class="contact__group">
+                        <div class="contact__box">
+                           <input type="text" name="user_name" class="contact__input" id="name" required placeholder="Name">
+                           <label for="name" class="contact__label">Name</label>
+                        </div>
+   
+                        <div class="contact__box">
+                           <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email Address">
+                           <label for="email" class="contact__label">Email Address</label>
+                        </div>
+                     </div>
+                     
+                     <div class="contact__box">
+                        <input type="text" name="user_subject" class="contact__input" id="subject" required placeholder="Subject">
+                        <label for="subject" class="contact__label">Subject</label>
+                     </div>
+
+                     <div class="contact__box contact__area">
+                        <textarea name="user_message" class="contact__input" id="message" required placeholder="Message"></textarea>
+                        <label for="message" class="contact__label">Message</label>
+                     </div>
+
+                     <p class="contact__message" id="contact-message"></p>
+
+                     <button type="submit" class="contact__button button">
+                        <i class="ri-send-plane-line"></i> Send Message
+                     </button>
+                  </form>
+               </div>
+
+               <div class="contact__social">
+                  <img src="assets/img/curved-arrow.svg" alt="" class="contact__social-arrow">
+
+                  <div class="contact__social-data">
+                     <div>
+                        <p class="contact__social-description-1">
+                           You can also reach me here
+                        </p>
+   
+                        <p class="contact__social-description-2">
+                           Message me on LinkedIn
+                        </p>
+                     </div>
+
+                     <div class="contact__social-links">
+                        <a href="https://www.linkedin.com/in/ahmed-elzaria/" class="contact__social-link" target="_blank">
+                           <i class="ri-linkedin-box-line"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
          </section>
       </main>
 
       <!--==================== FOOTER ====================-->
       <footer class="footer">
-         
+         <div class="footer__container container grid">
+            <ul class="footer__links">
+               <li>
+                  <a href="#home" class="footer__link">Home</a>
+               </li>
+
+               <li>
+                  <a href="#about" class="footer__link">About</a>
+               </li>
+
+               <li>
+                  <a href="#projects" class="footer__link">Projects</a>
+               </li>
+            </ul>
+
+            <span class="footer__copy">
+               &#169; All Rights Reserved By 
+               <a href="#">AhmedElzaria.</a>
+            </span>
+         </div>
       </footer>
 
       <!--========== SCROLL UP ==========-->
-      
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-s-line"></i>
+      </a>
+
+      <!--========== TYPING JS Link ===========-->
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
       <!--=============== SCROLLREVEAL ===============-->
-      <script src=""></script>
+      <script src="assets/js/scrollreveal.min.js"></script>
       
       <!--=============== EMAIL JS ===============-->
-      
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
