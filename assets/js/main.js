@@ -146,8 +146,8 @@ const sr = ScrollReveal({
 var typingEffect = new Typed(".typedText",{
   strings : ["machine learning", "AI", "software design", ""],
   loop : true,
-  typeSpeed : 100, 
-  backSpeed : 80,
+  typeSpeed : 80, 
+  backSpeed : 60,
   backDelay : 2000
 });
 
