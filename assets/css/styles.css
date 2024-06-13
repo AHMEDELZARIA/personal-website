@@ -695,6 +695,10 @@ body.dark-theme {
   column-gap: 1rem;
 }
 
+.resume__text {
+  font-size: 12px;
+}
+
 /*=============== experience ===============*/
 .experience__container {
   grid-template-columns: 250px;
