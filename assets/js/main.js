@@ -142,14 +142,14 @@ const sr = ScrollReveal({
             .contact__social, .contact__data`, {origin: 'left'})
  sr.reveal(`.services__card, .projects__card`, {interval: 100})
 
- /*======= TYPING EFFECT =======*/
-var typingEffect = new Typed(".typedText",{
-  strings : ["machine learning", "AI", "software design", ""],
-  loop : true,
-  typeSpeed : 80, 
-  backSpeed : 60,
-  backDelay : 2000
-});
+/*======= TYPING EFFECT =======*/
+// var typingEffect = new Typed(".typedText",{
+//   strings : ["machine learning", "AI", "software design", ""],
+//   loop : true,
+//   typeSpeed : 80, 
+//   backSpeed : 60,
+//   backDelay : 2000
+// });
 
 /*======== CUSTOM CURSOR =======*/
 const cursorDot = document.querySelector("[data-cursor-dot]");
