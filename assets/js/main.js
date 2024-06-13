@@ -149,8 +149,9 @@ var typingEffect = new Typed(".typedText",{
   typeSpeed : 100, 
   backSpeed : 80,
   backDelay : 2000
-})
+});
 
+/*======== CUSTOM CURSOR =======*/
 const cursorDot = document.querySelector("[data-cursor-dot]");
 const cursorOutline = document.querySelector("[data-cursor-outline]");
 
@@ -169,8 +170,8 @@ window.addEventListener("mousemove", e => {
 
 window.addEventListener("mousedown", () => {
     cursorOutline.classList.add("shrunk");
-})
+});
 
 window.addEventListener("mouseup", () => {
     cursorOutline.classList.remove("shrunk");
-})
+});
