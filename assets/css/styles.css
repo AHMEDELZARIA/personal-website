@@ -90,6 +90,49 @@ img {
   height: auto;
 }
 
+.cursor-dot {
+  width: 5px;
+  height: 5px;
+  background-color: var(--text-color);
+  pointer-events: none;
+}
+
+.cursor-outline {
+  width: 30px;
+  height: 30px;
+  border: 2px solid var(--text-color);
+  opacity: 0.5;
+  pointer-events: none;
+  transition: width 0.3s ease, height 0.3s ease, background-color 0.3s ease;
+}
+
+.cursor-dot,
+.cursor-outline {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 1000;
+}
+
+.shrunk {
+  width: 20px;
+  height: 20px;
+  background-color: var(--text-color);
+}
+
+body,
+a,
+input,
+button,
+div,
+span,
+i,
+textarea {
+  cursor: none;
+}
+
 /*=============== THEME ===============*/
 .nav__buttons {
   display: flex;
@@ -100,7 +143,6 @@ img {
 .change-theme {
   font-size: 1.25rem;
   color: var(--title-color);
-  cursor: pointer;
   transition: color .3s;
 }
 
@@ -272,7 +314,6 @@ body.dark-theme {
 
 .nav__toggle {
   font-size: 1.25rem;
-  cursor: pointer;
 }
 
 /* Navigation for mobile devices */
@@ -364,7 +405,6 @@ body.dark-theme {
   font-size: 1.5rem;
   top: 1rem;
   right: 1.5rem;
-  cursor: pointer;
 }
 
 /* Show menu */
@@ -520,7 +560,6 @@ body.dark-theme {
   display: grid;
   place-items: center;
   font-size: 1rem;
-  cursor: pointer;
   overflow: hidden;
   transition: background-color .4s; /* for dark mode */
 }
@@ -853,7 +892,6 @@ body.dark-theme {
   font-size: var(--small-font-size);
   font-weight: var(--font-medium);
   transition: color .4s;
-  cursor: pointer;
 }
 
 .projects__link i {
@@ -1003,7 +1041,6 @@ body.dark-theme {
 
 .contact__button {
   background-color: var(--first-color);
-  cursor: pointer;
 }
 
 /* Opaque placeholder */
