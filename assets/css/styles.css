@@ -7,7 +7,7 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(14, 98%, 50%);
+  --first-color: hsl(130, 95%, 24%);
   --black-color: hsl(0, 0%, 0%);
   --black-color-light: hsl(0, 0%, 40%);
   --white-color: hsl(0, 0%, 95%);
@@ -156,7 +156,7 @@ textarea {
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
-  --first-color: hsl(14, 80%, 50%);
+  --first-color: hsl(130, 95%, 23%);
   --black-color: hsl(0, 0%, 18%);
   --black-color-light: hsl(0, 0%, 30%);
   --title-color: hsl(0, 0%, 95%);
@@ -175,7 +175,7 @@ body.dark-theme {
 
 .dark-theme .section__title-1::after, 
 .dark-theme .section__title-2::after {
-  background-color: hsla(14, 70%, 50%, .2);
+  background-color: hsla(130, 95%, 50%, .2);
 }
 
 .dark-theme :is(.home__arrow, .home__line, .about__line) {
@@ -183,7 +183,7 @@ body.dark-theme {
 }
 
 .dark-theme .home__description b {
-  background: linear-gradient(90deg, hsla(14, 80%, 50%, .3), hsla(14, 80%, 50%, 0));
+  background: linear-gradient(90deg, hsla(130, 95%, 50%, .3), hsla(14, 80%, 50%, 0));
 }
 
 .dark-theme :is(.button__ghost, .experience__icon i) {
@@ -246,7 +246,7 @@ body.dark-theme {
   content: "";
   width: 40px;
   height: 28px;
-  background-color: hsla(14, 98%, 50%, .2);
+  background-color: hsla(130, 95%, 50%, .2);
   position: absolute;
   top: -4px;
   right: -8px;
@@ -552,7 +552,7 @@ body.dark-theme {
 
 .home__description b {
   background: linear-gradient(90deg, 
-            hsla(14, 98%, 50%, .3), 
+            hsla(130, 95%, 50%, .3), 
             hsla(14, 98%, 50%, 0));
 }
 
