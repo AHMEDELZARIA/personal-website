@@ -1,7 +1,7 @@
 # Personal Website 
-![Screenshot 2024-06-13 at 5 07 54 PM](https://github.com/AHMEDELZARIA/personal-website/assets/93144563/10474862-89a3-4af2-9f41-30778b021d39)
+![personal-website-photo-1](https://github.com/user-attachments/assets/454cc185-4947-4ab5-9166-ba4100071952)
 
-Welcome to my personal website repository! This site showcases my portfolio and professional journey. It is built with HTML, CSS, and JavaScript, and deployed using GitHub Pages.
+Welcome to my personal website repository! This site showcases my portfolio and professional journey. It is built with plain old HTML, CSS, and JavaScript, and deployed using GitHub Pages.
 
 ## Features
 
